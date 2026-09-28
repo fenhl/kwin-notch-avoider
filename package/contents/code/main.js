@@ -92,6 +92,7 @@ panel.height = ${thicknessExpression};
 };
 
 const autoHideTaskBar = (autohide) => {
+/*
 	if (autohidden === autohide) return;
 
 	const hiding = autohide ? "autohide" : "none";
@@ -101,6 +102,7 @@ panel.hiding = "${hiding}";
 `;
 	callPlasmaScript(plasmaScript);
 	autohidden = autohide;
+*/
 };
 
 const connectClient = (window) => {
